@@ -1,12 +1,12 @@
-Deep Attribution Modeling with LSTM + Attention
+## Deep Attribution Modeling with LSTM + Attention
 
 This repository demonstrates a simple yet effective approach to user journey attribution modeling using LSTM + Attention in PyTorch.
 
- Overview
+## Overview
 
 Attribution modeling aims to assign credit to each marketing channel (touchpoint) in a user's path that leads to a conversion. This project uses a deep learning model with attention to learn which steps in the sequence contributed most to conversion.
 
- Model Architecture
+## Model Architecture
 
 Embedding Layer: transforms touchpoints into dense vectors
 
@@ -16,7 +16,7 @@ Attention Layer: learns importance weights of each touchpoint
 
 Output Layer: sigmoid layer for binary classification (conversion or not)
 
- Features
+## Features
 
 Custom TouchpointDataset class
 
@@ -26,7 +26,7 @@ Attention mechanism for interpretability
 
 Outputs attention weights per touchpoint
 
-Sample Input/Output
+## Sample Input/Output
 
 Input: ['google_ad', 'email', 'app_push']
 Prediction: 0.83
