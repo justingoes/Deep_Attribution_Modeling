@@ -27,7 +27,8 @@ Attention mechanism for interpretability
 Outputs attention weights per touchpoint
 
 ## Sample Input/Output
-
 Input: ['google_ad', 'email', 'app_push']
+
 Prediction: 0.83
+
 Attention: [0.52, 0.31, 0.17]
